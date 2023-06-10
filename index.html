@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ms Word</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="word-wrapper">
+        <div class="wrap">
+            <div class="container">
+                <div class="styles-buttons">
+                    <div class="font-format">
+                        <div class="button bold">
+                            <button class="bold-text" id="bold">
+                                <i class="fa-solid fa-bold"></i>
+                            </button>
+                        </div>
+                        <div class="button italic">
+                            <button class="italic-text" id="italic">
+                                <i class="fa-solid fa-italic"></i>
+                            </button>
+                        </div>
+                        <div class="button underline">
+                            <button class="underline-text" id="underline">
+                                <i class="fa-solid fa-underline"></i>
+                            </button>
+                        </div>
+                        <div class="button strikethrought">
+                            <button class="strikethrought-text" id="strikethrought">
+                                <i class="fa-solid fa-strikethrough"></i>
+                            </button>
+                        </div>
+                        <div class="button increase-size">
+                            <button class="increase-size-text" id="increase-size">
+                                <i class="fa-solid fa-font"></i>
+                            </button>
+                        </div>
+                        <div class="button decrease-size">
+                            <button class="decrease-text" id="decrease-size">
+                                <i class="fa-solid fa-font"></i>
+                            </button>
+                        </div>
+                        <div class="font-size">
+                            <input type="text" placeholder="11" value="11" id="font-size">
+                        </div>
+                        <div class="button subscript">
+                            <button class="subscript" id="subscript">
+                                <i class="fa-solid fa-subscript"></i>
+                            </button>
+                        </div>
+                        <div class="button superscript">
+                            <button class="superscript" id="superscript">
+                                <i class="fa-solid fa-superscript"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="align-items">
+                        <div class="button align-left">
+                            <button class="align-left" id="align-left">
+                                <i class="fa-solid fa-align-left"></i>
+                            </button>
+                        </div>
+                        <div class="button align-center">
+                            <button class="align-center" id="align-center">
+                                <i class="fa-solid fa-align-center"></i>
+                            </button>
+                        </div>
+                        <div class="button align-right">
+                            <button class="align-right" id="align-right">
+                                <i class="fa-solid fa-align-right"></i>
+                            </button>
+                        </div>
+                        <div class="button align-justify">
+                            <button class="align-justify" id="align-justify">
+                                <i class="fa-solid fa-align-justify"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="button clear-all-formatting">
+                        <button class="clear-all-formatting" id="clear-all-formatting">
+                            <i class="fa-solid fa-eraser"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="page">
+                    <div class="input-section">
+                        <textarea id="styleVal" cols="120" rows="20" class="textarea-section"></textarea>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>
